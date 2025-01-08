@@ -1,0 +1,35 @@
+// SITE WEB
+{
+  "ip_address": "string",
+  "date": "date",
+  "session_duration": "number",
+  "newsletter_subscription": "boolean",
+  "number_of_clicks": "number",
+}
+// SUPPORT CLIENT
+{
+  "ticket_id": "string",
+  "user_id": "string",
+  "date": "date",
+  "category": "string", // Ex. bug, feature
+  "status": "string" // Ex. open, resolved
+}
+// ABONNEMENT
+{
+  "user_id": "string",
+  "action_type": "string", // Ex. subscription, unsubscription, renewal
+  "subscription_type": "string", // Ex. standard, premium
+  "date": "date",
+}
+// APP MOBILE
+{
+  "user_id": "string",
+  "date": "date",
+  "session_duration": "number", // Temps passé (en secondes)
+  "feature_clicks": {
+    "feature_name": "string",
+    "click_count": "number"
+  },
+  "ai_card_modifications": "number", // Modifications apportées aux cartes générées par l’IA
+  "premium_features_usage": "number" // Fréquence d’utilisation des options premium
+}
