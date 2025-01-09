@@ -28,5 +28,5 @@ pip install -r requirements.txt
 
 Lancer le script de peuplement
 ```bash
-python seed.py
+python src/seed.py
 ```
